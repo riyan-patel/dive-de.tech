@@ -60,9 +60,9 @@ export default function FoulDetectionApp() {
             border-radius: 50%;
             background: radial-gradient(
                 circle at center,
-                rgba(128,0,10, 0.5) 0%,   /* Brighter center */
-                rgba(128,0,10, 0.3) 40%,  /* Mid-tone */
-                rgba(128,0,10, 0) 30%    /* Fully transparent at the edges */
+                rgba(128,0,10, 0.5) 20%,   /* Brighter center */
+                rgba(128,0,10, 0.3) 30%,  /* Mid-tone */
+                rgba(128,0,10, 0) 40%    /* Fully transparent at the edges */
             );
             animation: float 6s ease-in-out infinite, drift 10s ease-in-out infinite;
             pointer-events: none;
